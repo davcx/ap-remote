@@ -11,4 +11,6 @@ Seatalk processing in Core 0 on ESP32.
 
 HTML/CSS files for web page uploaded via SPIFFS.
 
-More details to follow.
+Per l'upload in spiffs seguire la proc:
+https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/
+(NB: non funziona con IDE 2.1 , usare IDE 1.8)
