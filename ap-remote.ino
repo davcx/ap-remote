@@ -819,7 +819,7 @@ bool send2ST(uint8_t cmd[]){
   CheckBus();
   digitalWrite(LED_PIN, HIGH );
   for( int i = 0; i < 4; i++){
-    (i == 0) ? mySerial.write(cmd[i], SWSERIAL_PARITY_MARK) : mySerial.write(cmd[i], SWSERIAL_PARITY_SPACE);
+    (i == 0) ? mySerial.write(cmd[i], PARITY_MARK) : mySerial.write(cmd[i], PARITY_SPACE);
   }
   delay(100);
   digitalWrite(LED_PIN, LOW);
